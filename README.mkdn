@@ -67,6 +67,8 @@ This is a synonym for ["get"](#get)
 
 # AVAILABILITY
 
+The project homepage is [http://metacpan.org/release/WWW-Hashbang-Pastebin-Client/](http://metacpan.org/release/WWW-Hashbang-Pastebin-Client/).
+
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit [http://www.perl.com/CPAN/](http://www.perl.com/CPAN/) to find a CPAN
 site near you, or see [https://metacpan.org/module/WWW::Hashbang::Pastebin::Client/](https://metacpan.org/module/WWW::Hashbang::Pastebin::Client/).
