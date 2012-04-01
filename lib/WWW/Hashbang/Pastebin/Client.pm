@@ -127,7 +127,7 @@ sub get {
         $id = $uri->path;
     }
     $id =~ s{^/}{};
-    $id =~ s{\.$}{};
+    $id =~ s{\+$}{};
 
     my $URI = URI->new_abs("/$id", $self->{url});
     my $get_response = $self->{ua}->get($URI);
