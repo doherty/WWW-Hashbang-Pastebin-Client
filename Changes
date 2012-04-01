@@ -1,6 +1,8 @@
 Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
+
+0.002     2012-03-31
  - Update for latest changes in WWW::Hashbang::Pastebin - strip terminating + from
    ID, if present (instead of ., which was the previous way to get HTML output)
 

@@ -22,7 +22,7 @@ my %module_build_args = (
     "Mike Doherty <doherty\@cpan.org>"
   ],
   "dist_name" => "WWW-Hashbang-Pastebin-Client",
-  "dist_version" => "0.001",
+  "dist_version" => "0.002",
   "license" => "perl",
   "module_name" => "WWW::Hashbang::Pastebin::Client",
   "recommends" => {},

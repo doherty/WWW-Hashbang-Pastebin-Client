@@ -3,7 +3,7 @@ NAME
     WWW::Hashbang::Pastebin websites
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         use WWW::Hashbang::Pastebin::Client;
