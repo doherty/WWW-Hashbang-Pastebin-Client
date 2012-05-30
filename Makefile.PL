@@ -15,7 +15,6 @@ my %WriteMakefileArgs = (
     "File::Find" => 0,
     "File::Temp" => 0,
     "Module::Build" => "0.3601",
-    "Plack::Loader" => 0,
     "Test::More" => "0.96"
   },
   "CONFIGURE_REQUIRES" => {
@@ -31,13 +30,12 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "Getopt::Long" => 0,
-    "LWP::UserAgent" => 0,
+    "HTTP::Tiny" => 0,
     "Pod::Usage" => 0,
-    "URI" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

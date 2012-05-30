@@ -1,6 +1,8 @@
 Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
+
+0.003     2012-05-29
   - Accidental dependency on Plack::Loader removed [GH #1]
   - Replace LWP::UserAgent with HTTP::Tiny
   - Remove URI

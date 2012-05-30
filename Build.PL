@@ -10,7 +10,6 @@ my %module_build_args = (
     "File::Find" => 0,
     "File::Temp" => 0,
     "Module::Build" => "0.3601",
-    "Plack::Loader" => 0,
     "Test::More" => "0.96"
   },
   "configure_requires" => {
@@ -22,7 +21,7 @@ my %module_build_args = (
     "Mike Doherty <doherty\@cpan.org>"
   ],
   "dist_name" => "WWW-Hashbang-Pastebin-Client",
-  "dist_version" => "0.002",
+  "dist_version" => "0.003",
   "license" => "perl",
   "module_name" => "WWW::Hashbang::Pastebin::Client",
   "recommends" => {},
@@ -30,9 +29,8 @@ my %module_build_args = (
   "requires" => {
     "Carp" => 0,
     "Getopt::Long" => 0,
-    "LWP::UserAgent" => 0,
+    "HTTP::Tiny" => 0,
     "Pod::Usage" => 0,
-    "URI" => 0,
     "perl" => "v5.10.1",
     "strict" => 0,
     "warnings" => 0
